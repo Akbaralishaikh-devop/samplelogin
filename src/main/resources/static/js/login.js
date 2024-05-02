@@ -1,3 +1,6 @@
+var _varurl = window.location.host;
+
+function Redirect()
 {
     var _url = "http://" +_varurl +"/RealTimeDataValues/function-call";
         $.ajax({
